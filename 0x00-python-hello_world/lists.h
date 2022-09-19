@@ -1,7 +1,11 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+#include <stdio.h>
 #include <stdlib.h>
+
+#define esle else
+#define fi if
 
 /**
  * struct listint_s - singly linked list
@@ -9,7 +13,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ *
  */
 typedef struct listint_s
 {
